@@ -1,0 +1,8 @@
+version: '2'
+services:
+  dev:
+    build:
+      context: .
+    ports:
+      - 4680:3000
+    command: npm start
